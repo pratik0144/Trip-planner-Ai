@@ -1,11 +1,11 @@
-import { Button } from '@/components/ui/button'
-import React from 'react'
 import Hero from "./_components/Hero";
+import PopularCityList from "./_components/PopularCityList";
 
-export default function page() {
+export default function Page() {
   return (
     <div>
-        <Hero/>
+      <Hero />
+      <PopularCityList />
     </div>
-  )
+  );
 }
